@@ -21,7 +21,7 @@ function saveBlocksImages(doZoom) {
   var downloadMime = 'image/octet-stream';
   var imageData = offscreenCanvas.toDataURL('image/jpeg');
   imageData = imageData.replace('image/jpeg', downloadMime);
-  p5.prototype.downloadFile(imageData, 'preview.jpg', 'jpg');
+  p5.prototype.downloadFile(imageData, 'preview1.jpg', 'jpg');
 
   // generate 230x120 thumbnail.png centered on mouse
   offscreenCanvas.width = 230;
